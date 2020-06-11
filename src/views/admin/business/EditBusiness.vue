@@ -2,8 +2,8 @@
   <div>
     <div class="login__container" v-if="business">
       <BusinessForm :business="business" :type="'edit'" />
-      <div>
-        <button class="btn btn-primary" @click="create" >
+      <div class="px-5">
+        <button class="btn btn-primary mb-2" @click="create" >
           Add Image
         </button>
       <Images :images="business.image" :func="editImage" />
