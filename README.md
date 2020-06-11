@@ -1,34 +1,33 @@
-# gamer
+Business Listing Vue App
 
-## Project setup
-```
-yarn install
-```
+Table of Contents
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+Installation
+Usage
+Installation
 
-### Compiles and minifies for production
-```
-yarn build
-```
+# clone the repo
+$ git clone https://github.com/teebarg/ade-initng.git my-project
 
-### Run your unit tests
-```
-yarn test:unit
-```
+# go into app's directory
+$ cd my-project
 
-### Run your end-to-end tests
-```
-yarn test:e2e
-```
+# install app's dependencies
+$ npm install
+Setup Your Environment
 
-### Lints and fixes files
-```
-yarn lint
-```
+Copy file ".env.example", and change its name to ".env". Then in file ".env" Backend API and ASW s3 Bucket Url:
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Usage
+
+# start local server
+$ npm run serve
+
+Open your browser with address: localhost:8080
+
+# for Admin
+Goto http://localhost:8080/admin
+
+# for Admin Credentials
+username: admin@admin.com
+password: password
