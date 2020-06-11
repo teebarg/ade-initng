@@ -9,6 +9,7 @@
       <p><span>Views: </span>{{ business.views }}</p>
       <p><span>Rating: </span>{{ business.rating }}</p>
       <p><span>Status: </span>{{ business.active }}</p>
+      <p><span>Categories: </span> <CBadge color="success" class="mr-1" v-for="(cat, key) in business.categories" :key="key">{{cat.name}}</CBadge></p>
     </div>
   </div>
 </template>
