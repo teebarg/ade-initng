@@ -7,12 +7,13 @@
         <ul>
           <li>Address with the most Listings</li>
           <li>Category with the most Listings</li>
+          <li>Active and Inactive Listings</li>
         </ul>
       </div>
       <div>
         <p class="font-weight-bold">Feature that can be added</p>
         <ul>
-          <li>GoogleMap for better Geofencing</li>
+          <li>GoogleMap for better address directory</li>
           <li>Review of Business by confirmed Clients</li>
         </ul>
       </div>

@@ -29,7 +29,7 @@ export default {
   },
   methods: {
     getBusiness() {
-      BusinessService.getBusiness(this.$route.params.id).then(({ data }) => {
+      BusinessService.getBusiness(this.$route.params.id, { view: true }).then(({ data }) => {
         this.business = data;
       });
     },

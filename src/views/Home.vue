@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h3 class="text-center mb-0 mt-4">Business Listing</h3>
     <form id="category-form" class="p-5" @submit.prevent="submit">
       <div class="form-row">
         <div class="form-group col-md-6">
@@ -12,7 +13,7 @@
             v-model="search"
           />
         </div>
-        <div class="form-group col-md-4">
+        <div class="form-group col-md-2">
           <label for="order">Order By</label>
           <select id="order" class="form-control" @change="change" v-model="orderBy">
             <option value="id">Entries</option>
@@ -33,7 +34,7 @@
           left-footer="views"
         >
           <div class="my-4">
-            <h5><span class="font-weight-bold">Name: </span>{{ business.business_name }}</h5>
+            <h5>{{ business.business_name }}</h5>
           </div>
         </CWidgetBrand>
       </span>

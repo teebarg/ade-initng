@@ -12,9 +12,9 @@ class BusinessService {
     }
   }
 
-  static async getBusiness(id) {
+  static async getBusiness(id, view = '') {
     try {
-      return await AxiosHttp.get(`${ApiEndPoint.BUSINESS}/${id}`);
+      return await AxiosHttp.get(`${ApiEndPoint.BUSINESS}/${id}`, view);
     } catch (err) {
       Utility.handleError(err);
       throw err;
